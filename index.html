@@ -239,7 +239,7 @@
     </div>
     <script src="anime.min.js"></script>
     <script>
-      function setTextAnimation(
+      /* function setTextAnimation(
         delay,
         duration,
         strokeWidth,
@@ -262,7 +262,7 @@
           path.style["animation-delay"] = `${i * delay}s`;
         }
       }
-      setTextAnimation(0.1, 6, 1, "linear", "#fff", true);
+      setTextAnimation(0.1, 6, 1, "linear", "#fff", true); */
 
       window.requestAnimationFrame =
         window.__requestAnimationFrame ||
@@ -438,7 +438,7 @@
       });
 
       function stars() {
-        let count = 60;
+        let count = 30;
         let scene = document.querySelector(".scene");
         let i = 0;
         while (i < count) {
